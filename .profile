@@ -7,5 +7,5 @@ alias ls='ls -G'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-
+alias rsync.exfat='rsync -rltDv'
 source ~/set_location_proxy.sh
