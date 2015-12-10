@@ -13,4 +13,4 @@ if rem != 0:
     lines.append('')
 
 for i in xrange(offset):
-    print(lines[i] + lines[offset+i])
+    print(lines[i] + '\t' + lines[offset+i])
