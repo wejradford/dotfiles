@@ -6,6 +6,7 @@ if v:version >= 700
 endif
 
 syntax on
+set modeline
 set hlsearch number
 filetype on
 set paste
