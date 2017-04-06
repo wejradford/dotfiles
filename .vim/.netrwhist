@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/wradford/repos/hg/hg-search'
-let g:netrw_dirhist_2='/Users/wradford/repos/hg/hg-search/hg_search'
-let g:netrw_dirhist_3='/Users/wradford/repos/hg/hg-search/hg_search/app'
-let g:netrw_dirhist_4='/Users/wradford/repos/hg/a8-concierge-chrome-plugin'
