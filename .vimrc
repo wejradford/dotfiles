@@ -1,16 +1,22 @@
-if v:version >= 700
-  "Sets in-line spellchecking
-  set spell
-  " Set local language 
-  setlocal spell spelllang=en_au
-endif
+execute pathogen#infect()
+
+filetype plugin indent on
+syntax on
+
+"Sets in-line spellchecking
+set spell
+" Set local language
+setlocal spell spelllang=en_au
 
 syntax on
 set modeline
 set hlsearch number
 filetype on
 set paste
-set guifont=Inconsolata\ 13
+
+set laststatus=2
+set backspace=indent,eol,start
+
 autocmd BufNewFile,BufRead *html set ai ts=2 sts=2 et sw=2 si
 autocmd FileType python set ai ts=4 sts=4 et sw=4 si nospell
 autocmd FileType matlab set ai ts=4 sts=4 et sw=4 si

@@ -22,3 +22,5 @@ if [ -f '/Users/wradford/Downloads/google-cloud-sdk/path.bash.inc' ]; then sourc
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/wradford/Downloads/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/wradford/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+
+export NO_PROXY=*
