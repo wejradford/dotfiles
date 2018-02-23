@@ -15,8 +15,6 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias rsync.exfat='rsync -rltDv'
 
-export ARTEMISML_DATA=~/data/artemisml-data
-
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/wradford/Downloads/google-cloud-sdk/path.bash.inc' ]; then source '/Users/wradford/Downloads/google-cloud-sdk/path.bash.inc'; fi
 
